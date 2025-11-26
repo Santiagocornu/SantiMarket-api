@@ -6,7 +6,7 @@ Lenguaje: Java 17
 
 Framework: Spring Boot 3.x
 
-Base de Datos: PostgreSQL
+Base de Datos: PostgreSQL, aws aurora y rds.
 
 ORM: Spring Data JPA / Hibernate
 
