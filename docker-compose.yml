@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    # O usa image: tu-app si ya tienes una imagen
+    ports:
+      - "8080:8080"  # Puerto de tu app
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://santimarket-instance-1.ct2yeo8gu7m9.us-east-2.rds.amazonaws.com:5432/santimarket
+
+    env_file: 
+        - .env 
+        # environment:
+        # SPRING_DATASOURCE_USERNAME: ${SPRING_DATASOURCE_USERNAME}
+        # SPRING_DATASOURCE_PASSWORD: ${SPRING_DATASOURCE_PASSWORD}
