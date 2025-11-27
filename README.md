@@ -1,6 +1,8 @@
 SantiMarket API
 Este proyecto es una API RESTful desarrollada con Spring Boot para la gestión de un sistema de mercado, incluyendo carritos de compra, productos y usuarios, utilizando PostgreSQL como base de datos, alojada en AWS RDS.
 
+(No se utilizaron DTO para mostrar un proyecto basico)
+
  Tecnologías
 Lenguaje: Java 17
 
